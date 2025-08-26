@@ -14,6 +14,10 @@ export const ValidUsers = [
 
 
 export const invalidUsersLoginIn = [
+    { 
+        'username':"NoUserCreated",
+        'password':"NoValidUser",
+    },
     {    
         'username':"TestUserOne",
         'password':"",
@@ -21,11 +25,6 @@ export const invalidUsersLoginIn = [
     {    
         'username':"",
         'password':"Test!",
-    },
-    {
-    
-        'username':"NoUserCreated",
-        'password':"NoValidUser",
-    },
+    }
 ]
 export const invalidUsersCreateUser = []

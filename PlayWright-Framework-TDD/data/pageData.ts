@@ -10,5 +10,9 @@ export function getPageUrl(){
 export const loginPageData = {
     loginPageTitle:'Cypress Real World App', 
     loginPageH1: 'Sign in',
-    loginSubmitButtonText:'Sign In'
+    loginSubmitButtonText:'Sign In',
+    errorBoxText:'Username or password is invalid',
+    errorInvalidUsername:'Username is required',
+    errorInvalidPassword:'Password must contain at least 4 characters',
+    rememberMeText:'test' 
 }
